@@ -98,13 +98,16 @@ body.dark button {
 }
 .koala-bob {
   animation: nod 2s infinite ease-in-out;
+  transform-origin: center top;
 }
 
 @keyframes nod {
-  0% { transform: translateY(0); }
-  25% { transform: translateY(6px); }
-  50% { transform: translateY(0); }
-  75% { transform: translateY(-3px); }
-  100% { transform: translateY(0); }
+ 0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
 }
+
 
