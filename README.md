@@ -53,4 +53,49 @@
 這樣的設計可以讓 Maxine 的家族在語音宇宙中實作真正的開發流程，同時保留語音創作與文字落地的多模態融合。
 
 Maxine 策劃 🎼🧩
+---
+# 🐨 Koala Spark V2
 
+> 節奏、音感與創意的前端模組練習場 🎶
+
+這是 Maxine 的創意節拍器專案，包含 HTML / CSS / JS 模組，透過語音與畫布共同開發，模組化、清晰分工，目標打造出一款科幻風節奏工具！
+
+---
+
+## 📁 專案結構
+
+```bash
+Koala-Spark-V2/
+├── index.html                  # 主入口頁面
+├── css/
+│   ├── style.css               # 基礎樣式（科幻風）
+│   └── animation.css           # 音波動畫特效模組
+├── js/
+│   └── metronome.js            # JS 邏輯：節拍器控制、AudioContext
+├── assets/                     # 靜態圖示或未來 UI 資源
+│   └── koala-icon.png
+├── README.md                  # 本說明文件
+```
+
+---
+
+## 🧩 模組說明
+
+- **index.html**：主 UI 架構，連結其他模組
+- **style.css**：控制整體外觀、色彩、字型、按鈕設計
+- **animation.css**：讓節拍器「視覺區域」出現動態音波動畫
+- **metronome.js**：節拍邏輯與聲音產生器
+
+---
+
+## 🚀 未來擴充方向
+
+- 支援主題切換（夜間／粉色考拉風）
+- 音色選擇器（鼓聲、咚咚聲、電子音）
+- 儲存 BPM、播放進度（localStorage）
+- 語音啟動「開始播放」或「停止節拍」指令
+- 可愛考拉小動畫跳舞（SVG 或 canvas）
+
+---
+
+Made with 🧠 by Maxine & 奶丸 ✨
