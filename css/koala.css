@@ -1,0 +1,18 @@
+/* 🐨 koala.css - 跟著節拍點頭的動畫樣式 */
+
+#koala {
+  width: 100px;
+  transition: transform 0.2s ease-in-out;
+  transform-origin: center top;
+}
+
+#koala.bop {
+  transform: rotate(-8deg);
+  animation: bop 0.3s ease-in-out;
+}
+
+@keyframes bop {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-8deg); }
+  100% { transform: rotate(0deg); }
+}
