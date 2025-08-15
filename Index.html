@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Koala Spark V2</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+</head>
+<body>
+  <h1>🐨 Koala Spark 節拍器</h1>
+
+  <label for="bpm">BPM：</label>
+  <input type="number" id="bpm" min="40" max="240" value="120" />
+
+  <button onclick="startMetronome()">開始</button>
+  <button onclick="stopMetronome()">停止</button>
+  <button onclick="toggleTheme()">切換主題 🌙</button>
+
+  <div id="wave">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+  <script src="js/metronome.js"></script>
+  <script src="js/theme-toggle.js"></script>
+</body>
+</html>
